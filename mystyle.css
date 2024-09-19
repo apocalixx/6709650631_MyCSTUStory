@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Athiti);
+
+body {
+    background-image: url(resources/bg.jpg);
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+}
+
+#page {
+    background-color: white;
+    margin-top: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: normal;
+}
+p {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 18px;
+}
+.info {
+    line-height: 2;
+    font-family: Athiti;
+}
+
+#self {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 425px;
+    top: 200px;
+}
+#mybio{
+    width: 350px;
+    height: auto;
+}
